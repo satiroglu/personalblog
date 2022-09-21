@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'fd275a7a50a743f39e8bd4510fc175e7',
+  rootNotionPageId: '88bda3b8c12b4edf8c754918d1151b7d',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -14,10 +14,10 @@ export default siteConfig({
   author: 'Ahmet Ertürk',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Kişisel blog',
 
   // social usernames (optional)
-  twitter: 'aesatiroglu',
+  twitter: 'aesatiroglku',
   github: 'satiroglu',
   linkedin: 'ahmeterturk',
   // newsletter: '#', // optional newsletter URL
@@ -49,16 +49,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Hakkımda',
+      pageId: '9d44db70a557441aa64a3a67110fae1b'
+    },
+    {
+      title: 'İletişim',
+      pageId: 'b63e737cfcaa4332ab88410fe820c05e'
+    }
+  ]
 })
